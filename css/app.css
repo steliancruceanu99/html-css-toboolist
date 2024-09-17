@@ -1,0 +1,35 @@
+/* GENERALS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+html{
+    font-family: "Poppins", sans-serif
+}
+/* CARD */
+.container{
+    max-width: 800px;
+    margin-top: 30px;
+    background-color: white;
+} 
+/* HEADER */
+header{
+    vertical-align: middle;
+    font-size: 30px ;
+}
+/* MAIN */
+main{
+    border: 500px,50px;
+    background-color: #F0F0F0;
+    padding-top: 20px;
+}
+
+.card{
+    padding: 50px;
+}
+/* NAV */
+button {
+    padding: 6px;
+}
