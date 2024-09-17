@@ -27,9 +27,27 @@ main{
 }
 
 .card{
-    padding: 50px;
+   padding: 10px 40px
 }
 /* NAV */
 button {
-    padding: 6px;
+    padding: 6px 15px;
+    border-radius: 6%;
+    border-style: none;
+}
+.blue-button{
+    background-color:#6495ED ;
+    color: white;
+}
+.white-button{
+    background-color:white ;
+    border: 1.5px solid lightgray;
+    color:grey
+}
+hr{
+    border-top:#F0F0F0 ;
+}
+
+h1{
+    font-size: 20px;
 }
