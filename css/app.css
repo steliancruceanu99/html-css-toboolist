@@ -16,8 +16,8 @@ html{
 } 
 /* HEADER */
 header{
-    vertical-align: middle;
     font-size: 30px ;
+    padding-left: 10px;
 }
 /* MAIN */
 main{
@@ -26,14 +26,16 @@ main{
     padding-top: 20px;
 }
 
-.card{
-   padding: 10px 40px
-}
 /* NAV */
+nav{
+    padding: 10px 40px;
+    border-bottom: 1.5px solid #F0F0F0;
+}
+
 button {
-    padding: 6px 15px;
     border-radius: 6%;
     border-style: none;
+    padding: 10px 20px;
 }
 .blue-button{
     background-color:#6495ED ;
@@ -44,10 +46,48 @@ button {
     border: 1.5px solid lightgray;
     color:grey
 }
-hr{
-    border-top:#F0F0F0 ;
+
+/* tasks to do  */
+.task-name{
+    padding: 30px 40px;
+}
+.task-name h2{
+    font-size: 25px;
 }
 
-h1{
+.done-symbol{
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+h2{
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.vertical-align-middle {
+ vertical-align: middle;
+}
+
+.display-inline{
+ display: inline;
+}
+.tasks{
+        font-weight:500 ;
+        font-size: 20px;
+}
+
+.editorial{
+    color: white;
+    background-color: #6495ED;
+    border-radius: 50%;
+}
+
+.button-task {
+    padding: 5px 10px;
+    border-radius: 19px 19px;
+}
+.task-done{
+    margin-bottom: 20px;
 }
