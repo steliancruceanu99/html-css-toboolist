@@ -1,4 +1,5 @@
 /* GENERALS */
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -59,6 +60,26 @@ button {
     color: green;
     border: 2px solid green;
     border-radius: 50%;
+
+}
+/* DONE-SYMBOL */
+.done-symbol{
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.done-symbol::after{
+    content: '\2713';
+}
+
+/* UNDONE-SYMBOL */
+.undone-symbol{
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.undone-symbol::after{
+    content: '\2717';
 }
 
 h2{
@@ -78,16 +99,58 @@ h2{
         font-size: 20px;
 }
 
-.editorial{
-    color: white;
-    background-color: #6495ED;
-    border-radius: 50%;
-}
-
 .button-task {
     padding: 5px 10px;
     border-radius: 19px 19px;
+    color: white;
+
 }
+
 .task-done{
     margin-bottom: 20px;
 }
+/* BLUE-BUTTON */
+.blue-button{
+    background-color: #6495ED;
+}
+.blue-button::after{
+    content:'Editorial' ;
+}
+/* PURPLE-BUTTON */
+.purple-button{
+    background-color: #662d91;
+}
+.purple-button::after{
+    content:'Q1 Goals' ;
+}
+/* GREEN-BUTTON */
+.green-button{
+    background-color: green;
+}
+.green-button::after{
+    content:'Recruiting' ;
+}
+/* ORANGE-BUTTON */
+.orange-button{
+    background-color: orange;
+}
+.orange-button::after{
+    content:'Mobile' ;
+}
+/* VIOLET-BUTTON */
+.violet-button{
+    background-color: violet;
+}
+.violet-button::after{
+    content:'Website' ;
+}
+/* LIGHTGREEN-BUTTON */
+.lightgreen-button{
+    background-color: lightgreen;
+}
+.lightgreen-button::after{
+    content:'Sales' ;
+}
+
+
+
