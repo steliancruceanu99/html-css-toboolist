@@ -124,44 +124,27 @@ h2{
 .blue-button{
     background-color: #47acf2;
 }
-.blue-button::after{
-    content:'Editorial' ;
-}
 /* PURPLE-BUTTON */
 .purple-button{
     background-color: #9b72e5;
-}
-.purple-button::after{
-    content:'Q1 Goals' ;
 }
 /* GREEN-BUTTON */
 .green-button{
     background-color: #64c0a9;
 }
-.green-button::after{
-    content:'Recruiting' ;
-}
 /* ORANGE-BUTTON */
 .orange-button{
     background-color: #f29d34;
-}
-.orange-button::after{
-    content:'Mobile' ;
 }
 /* VIOLET-BUTTON */
 .violet-button{
     background-color: #d963a0;
 }
-.violet-button::after{
-    content:'Website' ;
-}
 /* LIGHTGREEN-BUTTON */
 .lightgreen-button{
     background-color: #b0c925;
 }
-.lightgreen-button::after{
-    content:'Sales' ;
-}
+
 
 
 
