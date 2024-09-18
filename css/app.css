@@ -39,11 +39,11 @@ button {
     padding: 10px 20px;
 }
 .nav-blue-button{
-    background-color:#6495ED ;
+    background-color:#47acf2 ;
     color: white;
 }
 .blue-button{
-    background-color:#6495ED ;
+    background-color:#47acf2 ;
     color: white;
 }
 
@@ -65,7 +65,7 @@ button {
 
 /* DONE-SYMBOL */
 .done-symbol{
-    color: green;
+    color: #64c0a9;
     border: 2px solid ;
     border-radius: 50%;
     width: 24px;
@@ -122,42 +122,42 @@ h2{
 }
 /* BLUE-BUTTON */
 .blue-button{
-    background-color: #6495ED;
+    background-color: #47acf2;
 }
 .blue-button::after{
     content:'Editorial' ;
 }
 /* PURPLE-BUTTON */
 .purple-button{
-    background-color: #662d91;
+    background-color: #9b72e5;
 }
 .purple-button::after{
     content:'Q1 Goals' ;
 }
 /* GREEN-BUTTON */
 .green-button{
-    background-color: green;
+    background-color: #64c0a9;
 }
 .green-button::after{
     content:'Recruiting' ;
 }
 /* ORANGE-BUTTON */
 .orange-button{
-    background-color: orange;
+    background-color: #f29d34;
 }
 .orange-button::after{
     content:'Mobile' ;
 }
 /* VIOLET-BUTTON */
 .violet-button{
-    background-color: violet;
+    background-color: #d963a0;
 }
 .violet-button::after{
     content:'Website' ;
 }
 /* LIGHTGREEN-BUTTON */
 .lightgreen-button{
-    background-color: lightgreen;
+    background-color: #b0c925;
 }
 .lightgreen-button::after{
     content:'Sales' ;
