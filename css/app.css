@@ -38,10 +38,16 @@ button {
     border-style: none;
     padding: 10px 20px;
 }
+.nav-blue-button{
+    background-color:#6495ED ;
+    color: white;
+}
 .blue-button{
     background-color:#6495ED ;
     color: white;
 }
+
+
 .white-button{
     background-color:white ;
     border: 1.5px solid lightgray;
