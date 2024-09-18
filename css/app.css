@@ -56,17 +56,16 @@ button {
     font-size: 25px;
 }
 
-.done-symbol{
-    color: green;
-    border: 2px solid green;
-    border-radius: 50%;
 
-}
 /* DONE-SYMBOL */
 .done-symbol{
     color: green;
-    border: 2px solid green;
+    border: 2px solid ;
     border-radius: 50%;
+    width: 24px;
+    line-height: 20px;
+    text-align: center;
+
 }
 .done-symbol::after{
     content: '\2713';
@@ -75,8 +74,11 @@ button {
 /* UNDONE-SYMBOL */
 .undone-symbol{
     color: red;
-    border: 2px solid red;
+    border: 2px solid ;
     border-radius: 50%;
+    width: 24px;
+    line-height: 20px;
+    text-align: center;
 }
 .undone-symbol::after{
     content: '\2717';
@@ -93,6 +95,9 @@ h2{
 
 .display-inline{
  display: inline;
+}
+.display-inline-block{
+    display: inline-block;
 }
 .tasks{
         font-weight:500 ;
