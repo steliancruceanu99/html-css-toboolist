@@ -9,11 +9,15 @@
 html{
     font-family: "Poppins", sans-serif
 }
+ul{
+    list-style-type:none ;
+}
 /* CARD */
 .container{
     max-width: 800px;
     margin-top: 30px;
     background-color: white;
+    
 } 
 /* HEADER */
 header{
