@@ -87,9 +87,7 @@ button {
     line-height: 20px;
     text-align: center;
 }
-.undone-symbol::after{
-    content: '\2717';
-}
+
 
 h2{
     font-size: 20px;
