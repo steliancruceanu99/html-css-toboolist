@@ -77,9 +77,6 @@ button {
     text-align: center;
 
 }
-.done-symbol::after{
-    content: '\2713';
-}
 
 /* UNDONE-SYMBOL */
 .undone-symbol{
@@ -109,6 +106,7 @@ h2{
 .display-inline-block{
     display: inline-block;
 }
+
 .tasks{
         font-weight:500 ;
         font-size: 20px;
@@ -118,10 +116,9 @@ h2{
     padding: 5px 10px;
     border-radius: 19px 19px;
     color: white;
-
 }
 
-.task-done{
+.task-section{
     margin-bottom: 20px;
 }
 /* BLUE-BUTTON */
