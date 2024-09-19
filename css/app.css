@@ -52,9 +52,12 @@ h3{
     border-radius: 999px;
     color: white;
 }
+.scritta-pill:hover{
+    color: white;
+}
 .pill:hover{
     background-color:#4c64f2;
-    color: white ;
+    color: white;
 }
 
 
@@ -97,12 +100,9 @@ button {
     border-style: none;
     padding: 10px 20px;
 }
-.nav-blue-button{
-    background-color:#47acf2 ;
-    color: white;
-}
+
 .blue-button{
-    background-color:#47acf2 ;
+    background-color:#2e45cc ;
     color: white;
 }
 
@@ -173,7 +173,7 @@ h2{
 
 /* BLUE-BUTTON */
 .blue-button{
-    background-color: #47acf2;
+    background-color: #2e45cc;
 }
 /* PURPLE-BUTTON */
 .purple-button{
