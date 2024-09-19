@@ -12,6 +12,14 @@ html{
 ul{
     list-style-type:none ;
 }
+
+.display-inline{
+    display: inline;
+}
+.display-inline-block{
+    display: inline-block;  
+}
+
 /* CARD */
 .container{
     max-width: 800px;
@@ -29,6 +37,7 @@ main{
     border: 500px,50px;
     background-color: #F0F0F0;
     padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 /* NAV */
@@ -67,7 +76,14 @@ button {
 }
 
 
-/* DONE-SYMBOL */
+
+/* MAIN */
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* TICK or CROSS SYMBOL */
 .done-symbol{
     color: #64c0a9;
     border: 2px solid ;
@@ -78,7 +94,6 @@ button {
 
 }
 
-/* UNDONE-SYMBOL */
 .undone-symbol{
     color: red;
     border: 2px solid ;
@@ -88,21 +103,8 @@ button {
     text-align: center;
 }
 
-
-h2{
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 .vertical-align-middle {
  vertical-align: middle;
-}
-
-.display-inline{
- display: inline;
-}
-.display-inline-block{
-    display: inline-block;
 }
 
 .tasks{
@@ -110,14 +112,14 @@ h2{
         font-size: 20px;
 }
 
+.task-section{
+    margin-bottom: 20px;
+}
+
 .button-task {
     padding: 5px 10px;
     border-radius: 19px 19px;
     color: white;
-}
-
-.task-section{
-    margin-bottom: 20px;
 }
 /* BLUE-BUTTON */
 .blue-button{
