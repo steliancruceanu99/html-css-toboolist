@@ -19,7 +19,51 @@ ul{
 .display-inline-block{
     display: inline-block;  
 }
+.flex-display{
+    display: flex;
+}
 
+/* HEADER */
+header{
+    padding: 25px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 17px;
+}
+.central-section{
+    justify-content: space-between;
+    width: 500px;
+}
+.main-name{
+    font-size: 20px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.pill{
+    background-color: #2e45cc ;
+    padding: 11px 20px 9px;;
+    border-radius: 999px;
+    color: white;
+}
+.pill:hover{
+    background-color:#4c64f2; ;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+.hover-color:hover {
+    color: #2e45cc;
+}
 /* CARD */
 .container{
     max-width: 800px;
@@ -91,6 +135,7 @@ h2{
     width: 24px;
     line-height: 20px;
     text-align: center;
+    margin-right:10px;
 
 }
 
@@ -101,6 +146,7 @@ h2{
     width: 24px;
     line-height: 20px;
     text-align: center;
+    margin-right:10px;
 }
 
 .vertical-align-middle {
@@ -121,6 +167,8 @@ h2{
     border-radius: 19px 19px;
     color: white;
 }
+
+
 /* BLUE-BUTTON */
 .blue-button{
     background-color: #47acf2;
